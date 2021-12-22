@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="main.js">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="icon" ref="https://pubcdn.ivymoda.com/images/logo.png">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap');
+  </style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>
+    Ivymoda
+
+  </title>
+  <meta name="desscription" content="IVY moda - Tuyên ngôn thời trang của bạn. IVY moda là thương hiệu thời trang Việt Nam với mong muốn đem lại vẻ đẹp hiện đại và sự tự tin cho khách hàng, thông qua các dòng sản phẩm thời trang thể hiện cá tính và xu hướng. Một trong những “tôn chỉ” về thiết kế của IVY moda chính là mong muốn khách hàng thể hiện được cá tính của chính mình."> 
+</head>
+
+
+<div class="top__bar" style="margin-top: 0px;";>
+  <div class="header">
+     <img class="header__img" src="images/logo.webp">
+    
+    
+    <ul class="header__menu">
+      <li class="menu__list" >
+        <a  href="http://127.0.0.1:5500/Danhmuc/nu/index.html" > NỮ </a>
+
+      </li>
+      <li class="menu__list">
+        <a href="http://127.0.0.1:5500/Danhmuc/nam/index.html">NAM</a> 
+
+      </li>
+      <li class="menu__list">
+       <a href="http://127.0.0.1:5500/Danhmuc/tre_em/index.html">TRẺ EM</a>
+
+      </li>
+      <li class="menu__list">
+       <a href="http://127.0.0.1:5500/Danhmuc/khau_trang/index.html">KHẨU TRANG</a>
+
+      </li>
+      <li class="menu__list">
+      <a href="http://127.0.0.1:5500/Danhmuc/bo_suu_tap/index.html"> BST</a>
+      </li>
+      <li class="menu__list">
+       <a href="http://127.0.0.1:5500/Danhmuc/thong_tin/index.html">THÔNG TIN</a>
+
+      </li>
+    </ul>  
+    
+    
+    <input id="input" type="search" autocomplete="off" spellcheck="false" role="combobox" aria-live="polite" placeholder="tìm kiếm">  
+
+   
+    <ul class="header__icon">
+      <li> 
+        <a class="icon1"  >
+          <span class="material-icons-outlined">
+           
+            </span>
+            
+        </a>
+      </li>
+      <li> 
+        <a class="icon2">
+
+        </a> 
+      </li>
+      <li> 
+        <i class="icon3">
+
+        </i> 
+      </li>
+    </ul>  
+  </div>
+</div>   
+
+
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <img src="images/0c0e16ce0a65c4b6f8bf2a645fc39234 (1).jpg" style="width:100%">
+
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="images\6ca62ae8721b5b437e35246c49e5b832.jpg" style="width:100%">
+     
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="images\198f647809aed20c43d7ea314e56528a.jpg" style="width:100%">
+   
+    </div>
+     
+    <div class="mySlides fade">
+      <img src="images\33906a1852fe202404f5c0e04ec53420.webp" style="width:100%">
+    
+    </div>
+
+    <div class="mySlides fade">
+      <img src="images\120eaf3c7cacf3dfea8214dca59a96cf.jpg" style="width:100%">
+     
+    </div>
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+    
+    </div>
+    <script>
+     var slideIndex = 0;
+      showSlides();
+      
+      function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}    
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+        setTimeout(showSlides, 2000); // Change image every 2 seconds
+      }
+
+    </script>
+  </div>
+  <hr>
+  <div class="description">
+<br>  
+<br>
+<br>
+<br>
+    <div class="download">
+      <h1>
+        Tải ứng dụng IVY moda
+
+      </h1>
+       <img class="download__img" src="images/appstore.webp"> <img class="download__img" src="images/googleplay.webp" >
+    </div>
+    <div class="news__ivy">
+      <h2>
+        Nhận bản tin IVY moda  
+      </h2>
+      <input  id="input" type="email" width="30px" height="5px" placeholder="Nhập email của bạn">
+     
+    </div>  
+<br>
+<br>
+<br>
+<br>
+    <div class="notification">
+      <a href="http://online.gov.vn/Home/WebDetails/36596">
+      <img class="notification__img" src="images/dathongbao.png" > </a>
+      <ul>
+       <Li>Liên Hệ</Li>
+       <Li class="tuyen_dung">Tuyển dụng</Li>
+       <Li>Giới thiệu</Li>
+      </ul>
+    </div>  
+    <div class="information">
+      <p> Công ty Cổ phần Dự Kim với số đăng ký kinh doanh: 0105777650</p>
+      <p>
+        Địa chỉ đăng ký: Tổ dân phố Tháp, P.Đại Mỗ, Q.Nam Từ Liêm, TP.Hà Nội, Việt Nam - 0243 205 2222
+      </p>
+      <p>
+        Đặt hàng online : 0246 662 3434 .
+      </p>
+    </div>  
+    <div class="footer">
+           <p>©Ivymoda All rights reserved</p>
+    
+    </div>
+    <div class="footer__img" > 
+      <img  src="images/support_new1.webp">
+    </div> 
+  </div>
+</body>
+</html>   

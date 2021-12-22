@@ -1,0 +1,271 @@
+   body{
+     margin: 0 0 0 0  ;
+   }
+ 
+
+
+  .header{
+    display: flex;
+    float: left;
+    width: 100%;
+    align-items: center;
+    position: fixed;
+    background: rgba(255,255,255,0.4);
+    border: 0px;
+    border-radius: 0px;
+    z-index: 999;
+    transition:all .2s ;
+    padding-left: 90px ;
+    min-height: 70px;
+    
+  }
+  
+
+  .header__img{
+    width: 10rem;
+    height: 3rem;
+    display: inline-flex;
+    
+    
+  }
+
+  .header__menu{
+      display: flex;
+      width: 41rem;
+      margin-left: 30px;
+      justify-content: space-between;
+      list-style: none;
+
+  } 
+
+   
+  .menu__list{
+    float: left;
+    color: #000;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: black;
+   }
+
+  
+  .menu__list a{
+   text-decoration-line: none;
+   color: black;
+   cursor:cell;
+  }
+  
+  
+
+  .header #input{
+    margin-left: 250px;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    background: rgba(255,255,255,0.4);
+    padding-top: 0px;
+    padding-left: 0px ;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    width: 100px;
+    text-align: center;
+    outline: 0px;
+
+  }
+  
+
+
+  .header__icon{
+    display: flex;
+    margin-left: 100px;
+    width: 10rem;
+    justify-content: space-around;
+
+  }
+
+  .icon1 .icon2 .icon3{
+    float: right;
+   
+  }
+
+
+ 
+    * {box-sizing: border-box;}
+    body {font-family: Verdana, sans-serif;}
+    .mySlides {display: none;}
+    img {vertical-align: middle;}
+    
+    /* Slideshow container */
+    .slideshow-container {
+      max-width: 118.75rem;
+      position: relative;
+      margin: auto;
+    }
+    
+    /* The dots/bullets/indicators */
+    .dot {
+      height: 10px;
+      width: 10px;
+      margin: 0 0.125rem;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+  
+    }
+    
+    .active {
+      background-color: #717171;
+    }
+    
+    /* Fading animation */
+    .fade {
+      -webkit-animation-name: fade;
+      -webkit-animation-duration: 1.5s;
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+    
+    @-webkit-keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+    }
+    
+    @keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+    }
+    
+    /* On smaller screens, decrease text size */
+    @media only screen and (max-width: 18.75rem) {
+      .text {font-size: 11px}
+    }
+
+    
+
+    .download{
+    text-align: center;
+    margin-top: 50px;
+    }
+  
+
+    .download h1{
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    }
+
+    .download__img{
+    height: 41.53px;
+    width: 140px ;
+    
+
+    }
+
+
+
+    .news__ivy{
+      text-align: center;
+       vertical-align: middle;
+      
+    }
+
+    .news__ivy h2{
+      font-size: 17px;
+      line-height: 20px;
+      font-weight: bold;
+      letter-spacing: 1px;
+
+    }
+
+    .news__ivy #input{
+      font-size: 14px;
+      width: 250px;
+      text-align: center;
+      vertical-align: middle;
+      margin-left: 0px;
+      border-top: 0px;
+      border-right:0px ;
+      border-left: 0px; ;
+      outline: 0px;
+      
+    }
+
+    
+    .notification{
+      display:inline-flex ;
+     
+    }
+
+
+    .notification img{
+     width: 90px;
+     height: 34px;
+    }
+
+    
+    .notification li{
+      list-style-type: none;
+    }
+
+
+    .notification ul {
+      display: flex;
+    }
+    
+
+   .tuyen_dung{
+     padding-left:  15px;
+     padding-right: 15px;
+     border-top: 0px;
+     border-bottom: 0px;
+     margin: 0 5px 0 5px;
+     border-right: 1px solid #ccc;
+     border-left: 1px solid #ccc;
+
+    }
+
+    .information{
+      text-align: center;
+
+
+    }
+     
+   .footer{background:#f8f8f8;}
+
+    
+    .footer p{display: inline-flex;}
+    
+
+   
+
+       .footer__img{
+        position: fixed;
+    background: none;
+    bottom: 5px;
+    right: 35px;
+    z-index: 9999;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 12px;
+    border-color: grey;
+    vertical-align: middle;
+
+
+       }
+
+       
+
+      .description{text-align: center ;
+      font-size: 11px;}
+
+
+
+      
